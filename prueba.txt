@@ -1,1 +1,1 @@
-este es un archivo para subir a github
+este es un archivo para subir a github desde linux

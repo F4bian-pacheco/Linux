@@ -21,6 +21,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'kien/ctrlp.vim'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'sirver/ultisnips'
+Plugin 'vimlab/split-term.vim'
 "Plugin 'honza/vim-snippets'
 
     "Temas
@@ -75,6 +76,9 @@ nmap <Leader>s <Plug>(easymotion-s2)
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
 
+" terminal
+set splitright
+map <S-t> :VTerm<CR>
 set title  " Muestra el nombre del archivo en la ventana de la terminal
 set relativenumber  " Muestra los números de las líneas
 set mouse=a  " Permite la integración del mouse (seleccionar texto, mover el cursor)
@@ -95,6 +99,7 @@ syntax enable
 filetype indent on
 set autoindent
 
+
 set hidden  " Permitir cambiar de buffers sin tener que guardarlos
 
 set ignorecase  " Ignorar mayúsculas al hacer una búsqueda
@@ -106,7 +111,7 @@ set spelllang=en,es  " Corregir palabras usando diccionarios en inglés y españ
 
 set termguicolors  " Activa true colors en la terminal
 set background=dark  " Fondo del tema: light o dark
-colorscheme evening  " Nombre del tema
+colorscheme onedark  " Nombre del tema
 let g:gruvbox_contrast_dark = "hard"
 
 "split navigations

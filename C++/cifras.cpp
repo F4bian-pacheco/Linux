@@ -4,8 +4,7 @@
 int main(){
     int num;
     std::cout << "ingrese un numero: ";
-    std::cin >>num;
-    
+    std::cin >>num;    
     int cifras = 1;
     while(num >= 10){
         num /= 10;

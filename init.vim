@@ -6,7 +6,7 @@ set nocompatible " be iMproved, required
 filetype off " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.config/nvim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
  "let Vundle manege Vundle, required
@@ -35,8 +35,10 @@ Plugin 'davidhalter/jedi-vim'
     "Sintaxis en general
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'valloric/youcompleteme'
-
- "Plugin 'tomtom/tlib_vim'
+let g:ycm_global_ycm_extra_conf='/home/fabianlinux/.vim/bundle/youcompleteme/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_autoclose_preview_window_after_completion = 1
+"Plugin 'tomtom/tlib_vim'
 "Plugin 'garbas/vim-snipmate'
 "Plugin 'octol/vim-cpp-enhanced-highlight'
 
@@ -65,6 +67,7 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'default'
+
 
 map <C-d> :bnext<CR>
 

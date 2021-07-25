@@ -70,9 +70,10 @@ ZSH_THEME="trapd00r"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z zsh-autosuggestions)
+plugins=(git z zsh-autosuggestions) 
 
 source $ZSH/oh-my-zsh.sh
+# Antigen Plugin
 
 # User configuration
 
@@ -98,7 +99,8 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias zshconfig="nvim ~/.zshrc"
-alias szsh="source .zshrc"
+alias szsh="source ~/.zshrc"
 alias ohmyzsh="cd ~/.oh-my-zsh"
 alias confnvim="nvim ~/.config/nvim/init.vim"
 alias windows="/mnt/c/Users/Fabian/Desktop"
+source /home/fabianlinux/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

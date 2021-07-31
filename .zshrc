@@ -75,6 +75,7 @@ plugins=(git
         emoji) 
 
 source $ZSH/oh-my-zsh.sh
+source .basrc
 # Antigen Plugin
 
 # User configuration

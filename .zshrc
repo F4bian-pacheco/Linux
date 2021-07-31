@@ -2,9 +2,8 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/fabianlinux/.oh-my-zsh"
-
 # Set name of the theme to load --- if set to "random", it will
+export ZSH="/home/fabianlinux/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
@@ -70,7 +69,10 @@ ZSH_THEME="trapd00r"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z zsh-autosuggestions) 
+plugins=(git 
+        z 
+        zsh-autosuggestions
+        emoji) 
 
 source $ZSH/oh-my-zsh.sh
 # Antigen Plugin
@@ -83,11 +85,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='nvim'
-else
-  export EDITOR='nano'
-fi
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='nvim'
+# else
+#   export EDITOR='nano'
+# fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"

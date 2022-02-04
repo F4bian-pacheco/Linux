@@ -1,3 +1,1 @@
 # Linux
-
-ghp_rATZoMDxDhXnUKP1QKDKlqVA5nh1G2kBNWPv

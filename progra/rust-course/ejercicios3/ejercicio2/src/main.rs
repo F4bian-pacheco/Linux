@@ -49,7 +49,7 @@ fn numero_perfecto(){
     clear();
     println!("100 numero perfectos: ");
     let mut i: i32 = 1;
-    while i < 10{
+    while i < 100{
         if is_perfect(i){
             print!("{} ",i);
         }

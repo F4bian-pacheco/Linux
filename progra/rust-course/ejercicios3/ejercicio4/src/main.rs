@@ -13,11 +13,9 @@ fn main() {
     let mut minutos = dates[1].to_string().parse::<i32>().unwrap();
     let mut segundos = dates[2].to_string().parse::<i32>().unwrap();
 
-    let new_hora = 0;
     let new_minutos = 1;
     let new_segundos = 1;
     
-    hora += new_hora;
     minutos += new_minutos;
     segundos += new_segundos;
 

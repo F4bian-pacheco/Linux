@@ -9,7 +9,6 @@ fn obtener_numeros() -> Vec<i32>{
     }
     arreglo.sort();
     arreglo.reverse();
-    println!("{:?}", arreglo);
     return arreglo;
 }
 
@@ -39,13 +38,16 @@ fn verificar(numeros :Vec<i32>, entrada :i32) -> bool{
 
 }
 
+
 fn iniciar_juego(numeros :Vec<i32>){
     
     let mut vidas = 0;
     let mut lista_escondida :Vec<String> = vec![String::from("*");12];
     loop {
         let mut entrada = String::new();
-        
+        lista_escondida[0] = numeros[0].to_string();
+        let ultimo = lista_escondida.len()-1;
+        lista_escondida[ultimo] = numeros[numeros.len()-1].to_string();
         println!("{:?}",lista_escondida);
         println!("");
         println!("Adivina un numero de la lista entre 0 y 100: ");
@@ -73,7 +75,6 @@ fn iniciar_juego(numeros :Vec<i32>){
 
 
 fn main() {
-    println!("Hello, world!");
     let numeros = obtener_numeros();
     iniciar_juego(numeros);
 }

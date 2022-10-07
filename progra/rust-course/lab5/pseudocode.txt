@@ -1,0 +1,32 @@
+
+
+funcion ordenar(arreglo)
+    mientras(desorden)
+        si arreglo[i] > arreglo[i+1]
+            temp = arreglo[i] // variable temporal
+            arreglo[i] = arreglo[i+1]
+            arreglo[i+1] = temp
+    
+        Fin si
+    Fin mientras
+Fin funcion
+
+funcion obtener_volumen(alto,ancho,largo)
+    devolver alto*ancho*largo
+Fin funcion
+
+
+arreglo <- [caja1,caja2,caja3,...,caja10]
+
+para i<-0 hasta 10 hacer
+    leer(alto)
+    leer(largo)
+    leer(ancho)
+
+    volumen <- obtener_volumen(alto,ancho,largo)
+    arreglo[i] <- volumen
+Fin para
+
+escribir("arreglo antes", arreglo)
+ordenar(arreglo)
+escribir("arreglo despues ",arreglo)

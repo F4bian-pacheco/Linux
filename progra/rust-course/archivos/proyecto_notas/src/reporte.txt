@@ -1,0 +1,4 @@
+Pepito: Aprobado
+Juanito: Aprobado
+Maria: Aprobado
+Joselito: Reprobado

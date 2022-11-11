@@ -1,0 +1,7 @@
+pepito;22;20376575;
+cachupin,perro,cafe
+copito,gato,negro
+#
+juanito;19;20345765;
+firulais,perro,amarillo
+blanco,caballo,negro

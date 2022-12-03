@@ -1,0 +1,10 @@
+serranita,300
+carioca,350
+kapo,400
+tabletones,100
+gatolate,350
+suflitos,350
+papas,500
+coyac,150
+ramita,450
+enojones,350

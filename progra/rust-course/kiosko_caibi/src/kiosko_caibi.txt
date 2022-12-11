@@ -1,0 +1,14 @@
+serranita,300,30
+carioca,300,25
+kapo,250,24
+tabletones,100,29
+gatolate,350,12
+suflitos,350,34
+papas,500,70
+ramita,450,100
+enojones,350,23
+pezeta,250,54
+galleta limon,600,15
+chocolito,200,21
+kilombo,350,43
+trululu,200,30

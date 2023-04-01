@@ -34,13 +34,19 @@ Plugin 'davidhalter/jedi-vim'
 
     "Sintaxis en general
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'valloric/youcompleteme'
-let g:ycm_global_ycm_extra_conf='/home/fabianlinux/.vim/bundle/youcompleteme/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
-let g:ycm_autoclose_preview_window_after_insertion = 1
-let g:ycm_autoclose_preview_window_after_completion = 1
+"Plugin 'valloric/youcompleteme'
+"let g:ycm_global_ycm_extra_conf='/home/fabianlinux/.vim/bundle/youcompleteme/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+"let g:ycm_global_ycm_extra_conf = '~/.config/nvim/global_extra_conf.py'
+"let g:ycm_autoclose_preview_window_after_insertion = 1
+"let g:ycm_autoclose_preview_window_after_completion = 1
+
 "Plugin 'tomtom/tlib_vim'
 "Plugin 'garbas/vim-snipmate'
 "Plugin 'octol/vim-cpp-enhanced-highlight'
+
+"Sintaxis para rust
+"Plugin 'rust-lang/rust.vim'
+Plugin 'neoclide/coc.nvim', 'release'
 
 " Fin Plugins
 
@@ -70,9 +76,12 @@ let g:airline#extensions#tabline#formatter = 'default'
 
 
 map <C-d> :bnext<CR>
+map <A-d> :bdelete<CR>
 
 let mapleader="\ "
 nmap <Leader>s <Plug>(easymotion-s2)
+
+inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 
 "Configuracion General
 
@@ -88,8 +97,8 @@ set mouse=a  " Permite la integración del mouse (seleccionar texto, mover el cu
 
 set nowrap  " No dividir la línea si es muy larga
 
-set cursorline  " Resalta la línea actual
-set colorcolumn=120  " Muestra la columna límite a 120 caracteres
+"set cursorline  " Resalta la línea actual
+"set colorcolumn=120  " Muestra la columna límite a 120 caracteres
 
 " Indentación a 4 espacios
 set tabstop=4
@@ -99,9 +108,9 @@ set shiftround
 set expandtab  " Insertar espacios en lugar de <Tab>s
 set encoding=utf-8
 syntax enable
-filetype indent on
+filetype plugin indent on
 set autoindent
-
+set scrolloff=7
 
 set hidden  " Permitir cambiar de buffers sin tener que guardarlos
 
@@ -115,7 +124,7 @@ set spelllang=en,es  " Corregir palabras usando diccionarios en inglés y españ
 set termguicolors  " Activa true colors en la terminal
 set background=dark  " Fondo del tema: light o dark
 colorscheme onedark  " Nombre del tema
-let g:gruvbox_contrast_dark = "hard"
+" let g:gruvbox_contrast_dark = "hard"
 
 "split navigations
 nnoremap <C-J> <C-W><C-J>

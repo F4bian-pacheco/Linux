@@ -7,7 +7,7 @@ export ZSH="/home/fabianlinux/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="trapd00r"
+ZSH_THEME="amuse"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -75,7 +75,9 @@ plugins=(git
         emoji) 
 
 source $ZSH/oh-my-zsh.sh
-source ~/.bashrc
+source ~/.profile
+export PATH="$HOME/.cargo/bin:$PATH"
+#export PATH_="$HOME/.local/bin:$PATH"
 # Antigen Plugin
 
 # User configuration
@@ -91,6 +93,8 @@ source ~/.bashrc
 # else
 #   export EDITOR='nano'
 # fi
+#export $HOME/Descargas/nodejs/bin:$PATH
+export BAT_THEME="OneHalfDark"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -105,5 +109,11 @@ alias zshconfig="nvim ~/.zshrc"
 alias szsh="source ~/.zshrc"
 alias ohmyzsh="cd ~/.oh-my-zsh"
 alias confnvim="nvim ~/.config/nvim/init.vim"
-alias windows="/mnt/c/Users/Fabian/Desktop"
+alias windows="/mnt/d/Fabian/Desktop/"
 source /home/fabianlinux/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias bat="/usr/bin/batcat"
+alias ls="lsd"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

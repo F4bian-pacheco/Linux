@@ -1,0 +1,11 @@
+/home/fabianlinux/Linux/progra/rust-course/bouling/target/debug/deps/libgetrandom-e37b20e5ca06594d.rmeta: /home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/lib.rs /home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/error.rs /home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/util.rs /home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/error_impls.rs /home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/util_libc.rs /home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/use_file.rs /home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/linux_android.rs
+
+/home/fabianlinux/Linux/progra/rust-course/bouling/target/debug/deps/getrandom-e37b20e5ca06594d.d: /home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/lib.rs /home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/error.rs /home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/util.rs /home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/error_impls.rs /home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/util_libc.rs /home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/use_file.rs /home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/linux_android.rs
+
+/home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/lib.rs:
+/home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/error.rs:
+/home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/util.rs:
+/home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/error_impls.rs:
+/home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/util_libc.rs:
+/home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/use_file.rs:
+/home/fabianlinux/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.7/src/linux_android.rs:
